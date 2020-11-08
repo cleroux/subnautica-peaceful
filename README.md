@@ -158,9 +158,11 @@ Replace each of the following classes/functions with the code provided here then
 ```csharp
 	private void UpdateAggression()
 	{
-		Player main = Player.main;
 		return;
+		
 		/*
+		Player main = Player.main;
+		
 		if (main == null || main.GetMode() != Player.Mode.LockedPiloting)
 		{
 			return;
